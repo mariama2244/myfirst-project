@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+
+header{
+    height: 100px;
+    padding-top: 50px;
+    padding-right: 6%;
+    text-align: right;
+    /* padding: 50px 6% 0px; notation courte */
+    background: rgb(58,76,76);
+background: linear-gradient(0deg, rgba(58,76,76,1) 0%, rgba(16,135,54,0.48829954345019255) 0%); 
+}
+
+.fa-house{
+    margin-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:white;
+    margin-right: 30px;
+    
+}
+nav a:hover, 
+nav a:active{
+    color: rgb(6, 6, 100);
+    text-decoration: underline;
+}
+
+.column{
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+}
+
+.column{
+    border-radius: 40px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.bg-image{
+    background-image: url("https://free-images.com/lg/556a/netherlands_landscape_sky_clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /*cette régle nous permet de manipuler l'affichage de l'image*/
+    background-position: center;
+    background-attachment: fixed; /*donner un effect d'image fixe en arrière plan... */
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+    
+}
+
+
+.scroll{
+    height: 700px;
+}
+
+
